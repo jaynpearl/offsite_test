@@ -1,0 +1,2 @@
+-- Statement for MYSQL
+select distinct uid from piwik_track where time >= '2017-04-02' and time <'2017-04-09' and uid in (select distinct uid from piwik_track where time like '2017-04-01%' and event_name='FIRST_INSTALL')
