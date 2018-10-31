@@ -5,3 +5,4 @@ jieba==0.39
 hanziconv==0.3.2
 bs4==0.0.1
 scikit-learn==0.20.0
+matplotlib==3.0.1
